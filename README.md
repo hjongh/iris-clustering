@@ -4,7 +4,7 @@ Clusters iris flowers using K-means, based on the relation of their sepal width 
 
 ## Visualizing the Data
 
-![](graphs/initdata.png)
+![](figures/initdata.png)
 
 Graphing each iris by their sepal length and sepal width, we can see how the actual clusters are related. Iris-setosa are linearly separable from the other two classes. Iris-virginica and Iris-versicolor, however, are not linearly separable, although there is a noticeable difference in where they are centered
 
@@ -14,6 +14,6 @@ I implemented a K-means clustering algorithm. Based off our original data, it's 
 
 | Clusters with Original Classes             |      Data with Cluster Classes  |
 |:-------------------------:|:-------------------------:|
-| ![](graphs/clustersOrigData.png)  |  ![](graphs/clustered.png)   |
+| ![](figures/clustersOrigData.png)  |  ![](figures/clustered.png)   |
 
 Kmeans was able to perfectly separate the iris-setosa, but not the iris-virginica and iris-versicolor. However, it clustered them fairly well.
